@@ -1,0 +1,67 @@
+body, html {
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.Scorecard {
+    position: relative;
+    width:100%;
+    max-width: 800px;
+    text-align: center;
+}
+.background {
+    
+    width:100%;
+    
+}
+.heading {
+    position: absolute;
+    top:0.5%;
+    left:30%;
+    transform: translateX(-50);
+    font-size:5rem;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+
+}
+.teams{
+    position: absolute;
+    bottom:10%;
+    left: 50%;
+    transform:translateX(-50%);
+    width:100%;
+}
+.pointsa{
+    position: absolute;
+    bottom:30%;
+    left: 25%;
+    transform:translateX(-50%,-50%);
+    font-size: 5rem;
+}
+.pointsb{
+    position: absolute;
+    bottom:30%;
+    left: 75%;
+    transform:translateX(-50%,-50%);
+    font-size: 5rem;
+   
+}
+.plusa{
+    position: absolute;
+    bottom:41%;
+    left: 35%;
+    transform:translateX(-50%);
+    width:7%;
+}
+.plusb{
+    position: absolute;
+    bottom: 41%;
+    left: 84%;
+    transform:translateX(-50%);
+    width:7%;
+}
